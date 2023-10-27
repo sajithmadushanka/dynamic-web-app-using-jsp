@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: rgba(255, 255, 255, 0.507);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 40px;
+  border: solid 1px rgb(228, 201, 201);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.form-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-col {
+  width: 40%;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=datetime-local],
+input[type=number],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+input[type=submit] {
+  background-color: #5F26FF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 20%;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=add_event.css.map */

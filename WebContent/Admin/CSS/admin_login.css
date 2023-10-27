@@ -1,0 +1,36 @@
+:root {
+  --primary-color:#fff;
+  --dark-color:#0F0F0F;
+  --secondary-color:blue;
+  --button-color:#5F26FF;
+  --primay-fonts-color:#ffff;
+  --font-greadinet-color:-webkit-linear-gradient(90deg, rgba(112,138,232,1) 0%, rgba(215,129,179,1) 51%);
+  --para-dark-color:#7D7D7D;
+  --fotter-link-color: #7C7C7C;
+  --form-bg-color:#131313;
+  --input-bg-c: #1A1A1A;
+  --input-stroke-color:#686868;
+  --label-color:#686868;
+}
+
+.form-outer {
+  width: 50vw;
+  height: 60vh;
+  padding-top: 60px;
+}
+.form-outer h1 {
+  text-align: center;
+}
+.form-outer .form-inner .left-side-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.form-outer .form-inner .left-side-form button {
+  margin-top: 20px;
+}
+.form-outer .form-inner p {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=admin_login.css.map */

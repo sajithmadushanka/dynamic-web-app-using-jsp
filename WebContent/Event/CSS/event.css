@@ -1,0 +1,75 @@
+/* Dark background for the entire page */
+body {
+	padding:0;
+	margin:0;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings with a white text color and subtle shadow */
+h1, h2, h3 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+}
+h1{
+	text-align:center;
+	background-color:#400080;
+}
+
+/* Table styling with a card-like appearance */
+table {
+    background-color: #444;
+    color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Table headers with a darker background and bold white text color */
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #555;
+}
+
+/* Table cells with padding */
+td {
+    padding: 10px;
+}
+
+/* Hover effect on table rows and buttons */
+tr:hover {
+    background-color: #666;
+    transition: background-color 0.3s ease;
+}
+button{
+	background-color:#2a2a2a;
+}
+button:hover {
+    background-color: #ff0000;
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+/* Links with a color change on hover */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
